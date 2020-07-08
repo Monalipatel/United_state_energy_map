@@ -1,1 +1,1 @@
-# United_state_energy_map
+# global_energy_map
