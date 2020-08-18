@@ -535,11 +535,6 @@ d3.json("/all_energy").then((data) => {
 //   });
 // });
 
-// function quantity(dataset) {
-//   var total = dataset.length;
-//   return total;
-// }
-
 //////////
 // Data extraction for stats table
 
