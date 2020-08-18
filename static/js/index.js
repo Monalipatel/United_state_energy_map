@@ -528,15 +528,7 @@ d3.json("/all_energy").then((data) => {
 //       }, {})
 //     );
 
-//   var almostTableData = redux(data);
 
-//   var tableData = almostTableData.map(Object.values);
-
-//   });
-// });
-
-//////////
-// Data extraction for stats table
 
 // Map 1
 // Map of geolocations
