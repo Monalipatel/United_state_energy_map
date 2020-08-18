@@ -342,58 +342,6 @@ d3.json("/all_energy").then((data) => {
 //   var heatArray = [];
 //   var markerArray = [];
 
-//   for (var i = 0; i < data.length; i++) {
-//     allLocations = [data[i].latitude, data[i].longitude];
-//     // Heat layer
-//     heatArray.push(allLocations)
-//     // Marker Cluster Group Layer
-//     var marker = L.marker(allLocations).bindPopup(`
-//           <p><strong> Name: </strong> ${data[i].name} </p>
-//           <hr>
-//           <p><strong> Commission Year: </strong> ${data[i].commissioning_year} </p>
-//           <p><strong> Primary Fuel Type: </strong> ${data[i].primary_fuel} </p>
-//         `);
-//     markerArray.push(marker);
-//   }
-
-//   markerClusterGroup.addLayers(markerArray);
-//   // Add our marker cluster layer to the map
-
-//   var heat = L.heatLayer(heatArray, {
-//     radius: 20,
-//     blur: 35,
-//     max: 1
-//   });
-
-//   var overlayMap = {
-//     "Clusters": markerClusterGroup,
-//     "Heat": heat
-//   };
-
-//   L.control.layers(overlayMap).addTo(myMap);
-
-//     // markerArray = [];
-//     var energySelectValue = locationEnergySelect.node().value;
-//     var filteredData = filterByEnergy(data, energySelectValue);
-//     console.log(energySelectValue)
-//     // console.log(markerClusterGroup);
-//     // // markerClusterGroup.clearLayers();
-//     // console.log(markerClusterGroup);
-//     // if (markerClusterGroup) {
-//     //   myMap.removeLayers(markerClusterGroup);
-//     // }
-
-//     // Check for location property
-//     if (energySelectValue == "All") {
-//       for (var i = 0; i < data.length; i++) {
-//         allLocations = [data[i].latitude, data[i].longitude];
-
-//         marker = L.marker(allLocations).bindPopup(`
-//                 <p><strong> Name: </strong> ${data[i].name} </p>
-//                 <hr>
-//                 <p><strong> Commission Year: </strong> ${data[i].commissioning_year} </p>
-//                 <p><strong> Primary Fuel Type: </strong> ${data[i].primary_fuel} </p>
-
 
 // Map 1
 // Map of geolocations
