@@ -415,26 +415,7 @@ d3.json("/all_energy").then((data) => {
 //         markerArray.push(marker);
 //       }
 //       markerClusterGroup.addLayers(markerArray);
-//     }
-//     // Add our marker cluster layer to the map
-//     var overlayMap = {
-//       "Clusters": markerClusterGroup,
-//       "Heat": heat
-//     };
-//     L.control.layers(overlayMap).addTo(myMap);
-//   });
-// });
 
-// // //////////
-// // // Data extraction for map 2
-// // d3.csv(dataset).then(function (data) {
-// //   console.log(data);
-// //   var columnNames = [
-// //     "name",
-// //     "primary_fuel",
-// //     "generation_gwh_2017",
-// //     "latitude",
-// //     "longitude",
 
 
 // Map 1
