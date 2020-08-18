@@ -331,18 +331,6 @@ d3.json("/all_energy").then((data) => {
 //       }, {})
 //     );
 
-//   var reducedData = redux(data);
-
-//   reducedData.forEach((d) => {
-//     d.latitude = +d.latitude;
-//     d.longitude = +d.longitude;
-//     d.commissioning_year = +d.commissioning_year;
-//   });
-
-//   var heatArray = [];
-//   var markerArray = [];
-
-
 // Map 1
 // Map of geolocations
 var myMap = L.map("map", {
