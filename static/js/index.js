@@ -466,14 +466,6 @@ d3.json("/all_energy").then((data) => {
 // //       color: '#fff', // border color
 // //       weight: 2,
 // //       fillOpacity: 0.8
-// //     },
-// //     onEachFeature: function (feature, layer) {
-// //       // Binding a pop-up to each layer
-// //       if (feature.properties.generation_gwh_2017) {
-// //         layer.bindPopup("<h3> Median House Hold Income </h3> <hr>" + feature.properties.generation_gwh_2017)
-// //       }
-// //     }
-//
 
 
 // Map 1
