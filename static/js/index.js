@@ -459,13 +459,6 @@ d3.json("/all_energy").then((data) => {
 // //     // Number of breaks in step range
 // //     steps: 10,
 
-// //     // q for quartile, e for equidistant, k for k-means
-// //     mode: 'q',
-// //     // Set style
-// //     style: {
-// //       color: '#fff', // border color
-// //       weight: 2,
-// //       fillOpacity: 0.8
 
 
 // Map 1
