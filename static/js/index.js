@@ -393,29 +393,6 @@ d3.json("/all_energy").then((data) => {
 //                 <hr>
 //                 <p><strong> Commission Year: </strong> ${data[i].commissioning_year} </p>
 //                 <p><strong> Primary Fuel Type: </strong> ${data[i].primary_fuel} </p>
-//               `);
-//         markerArray.push(marker);
-//       }
-//       markerClusterGroup.addLayers(markerArray);
-//     } else {
-//       // // Loop through data
-//       for (var i = 0; i < filteredData.length; i++) {
-//         // Set the data location property to a variable
-//         var filteredLocations = [
-//           filteredData[i].latitude,
-//           filteredData[i].longitude,
-//         ];
-
-//         marker = L.marker(filteredLocations).bindPopup(`
-//               <p><strong> Name: </strong> ${filteredData[i].name} </p>
-//               <hr>
-//               <p><strong> Commission Year: </strong> ${filteredData[i].commissioning_year} </p>
-//               <p><strong> Primary Fuel Type: </strong> ${filteredData[i].primary_fuel} </p>
-//             `);
-//         markerArray.push(marker);
-//       }
-//       markerClusterGroup.addLayers(markerArray);
-
 
 
 // Map 1
