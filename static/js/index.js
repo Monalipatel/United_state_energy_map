@@ -138,29 +138,6 @@ function filterData() {
 
     markerClusterGroup.addTo(myMap);
 
-
-
-    // // console.log(filteredData);
-    // Object.entries(selectedFilters).forEach(([key, value]) => {
-    //   // console.log(something);
-
-    //   filteredData = data.filter(
-    //     (record) => record[`${key}`] === value
-    //   );
-    //   console.log(filteredData);
-    // });
-
-    // filteredData.forEach((powerPlant) => {
-    //   // console.log(ufoRecord)
-    //   var powerPlantFilteredData = []
-    //   Object.entries(powerPlant).forEach(([key, value]) => {
-    //     // console.log(key, value);
-    //     var powerPlantFilteredDataObject = {}
-    //     powerPlantFilteredDataObject[`${key}`] = value;
-    //     powerPlantFilteredData.push(powerPlantFilteredDataObject)
-    //   });
-    //   // console.log(powerPlantFilteredData)
-    // });
   });
 }
 
