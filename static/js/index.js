@@ -446,14 +446,6 @@ d3.json("/all_energy").then((data) => {
 // //       }, {})
 // //     );
 
-// //   var reducedData = redux(data);
-// //   // Create a new choropleth layer
-// //   var choroplethLayer = L.choropleth(reducedData.toGeoJson(), {
-
-// //     // Define what  property in the features to use
-// //     valueProperty: 'generation_gwh_2017',
-
-
 // Map 1
 // Map of geolocations
 var myMap = L.map("map", {
