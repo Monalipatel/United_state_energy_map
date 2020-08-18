@@ -313,16 +313,6 @@ d3.json("/all_energy").then((data) => {
 //////////
 // Data extraction for map 1
 
-// locationEnergySelect.on("change", () => {
-// d3.json(`/energy_filter/${primary_fuel}`).then((data) => {
-//   var columnNames = [
-//     "name",
-//     "primary_fuel",
-//     "commissioning_year",
-//     "latitude",
-//     "longitude",
-//   ];
-
 
 // Map 1
 // Map of geolocations
