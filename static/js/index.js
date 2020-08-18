@@ -473,23 +473,7 @@ d3.json("/all_energy").then((data) => {
 // //         layer.bindPopup("<h3> Median House Hold Income </h3> <hr>" + feature.properties.generation_gwh_2017)
 // //       }
 // //     }
-// //   }).addTo(myMap2);
-// // console.log(choroplethLayer)
-// //   // Set up the legend
-// //   var legend = L.control({ position: 'bottomright' })
-// //   legend.onAdd = function (map) {
-// //     var div = L.DomUtil.create('div', 'info legend')
-// //     var limits = choroplethLayer.options.limits
-// //     var colors = choroplethLayer.options.colors
-// //     var labels = []
-// //     console.log(choroplethLayer)
-// //     console.log(colors)
-
-// //     // Add min & max
-// //     div.innerHTML = '<div class="labels"><div class="min">' + limits[0] + '</div> \
-// // 			<div class="max">' + limits[limits.length - 1] + '</div></div>'
-
-
+//
 
 
 // Map 1
