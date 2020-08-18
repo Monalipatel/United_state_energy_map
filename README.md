@@ -1,5 +1,7 @@
 # global_energy_map
 
+Heroku app link : https://usa-power-plants.herokuapp.com/
+
 Global Energy Map is an interactive dashboard meant to inform the user about the power plants in the United States & Canada. By implementing JavaScript, PgAdmin (SQL), Flask, the dashboard was built with the idea of providing the user with a visual of where energy is generated in North America. Not sure where to start? Zoom in to your local area and find out where Energy is generated near you! You can also navigate the Power Plants Statistics table to find out 
 
 
