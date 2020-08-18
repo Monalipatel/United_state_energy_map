@@ -436,15 +436,6 @@ d3.json("/all_energy").then((data) => {
 // //     "latitude",
 // //     "longitude",
 
-// //   ];
-
-// //   const redux = (array) =>
-// //     array.map((o) =>
-// //       columnNames.reduce((acc, curr) => {
-// //         acc[curr] = o[curr];
-// //         return acc;
-// //       }, {})
-// //     );
 
 // Map 1
 // Map of geolocations
