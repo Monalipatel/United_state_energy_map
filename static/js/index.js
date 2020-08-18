@@ -519,15 +519,6 @@ d3.json("/all_energy").then((data) => {
 //     "generation_gwh_2017",
 //   ];
 
-//   // Function to reduce data object to specific properties
-//   const redux = (array) =>
-//     array.map((o) =>
-//       columnNames.reduce((acc, curr) => {
-//         acc[curr] = o[curr];
-//         return acc;
-//       }, {})
-//     );
-
 
 
 // Map 1
