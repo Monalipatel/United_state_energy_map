@@ -499,26 +499,6 @@ d3.json("/all_energy").then((data) => {
 // //   legend.addTo(myMap2)
 // // });
 
-// //////////
-// // Data extraction to build the data table
-// d3.csv(dataset).then((data) => {
-//   data.forEach((d) => {
-//     d.latitude = (+d.latitude).toFixed(4);
-//     d.longitude = (+d.longitude).toFixed(4);
-//     d.commissioning_year = +d.commissioning_year;
-//     d.generation_gwh_2017 = numberWithCommas((+d.generation_gwh_2017).toFixed(2));
-//   });
-
-//   var columnNames = [
-//     "name",
-//     "state",
-//     "commissioning_year",
-//     "primary_fuel",
-//     "latitude",
-//     "longitude",
-//     "generation_gwh_2017",
-//   ];
-
 
 
 // Map 1
