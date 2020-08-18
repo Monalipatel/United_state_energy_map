@@ -453,13 +453,6 @@ d3.json("/all_energy").then((data) => {
 // //     // Define what  property in the features to use
 // //     valueProperty: 'generation_gwh_2017',
 
-// //     // Set color scale
-// //     scale: ["white", "red"],
-
-// //     // Number of breaks in step range
-// //     steps: 10,
-
-
 
 // Map 1
 // Map of geolocations
